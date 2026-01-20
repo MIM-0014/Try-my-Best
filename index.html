@@ -1,12 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
+
 <body>
-    
+    <header class="bg-[#412567]">
+        <!--Navbar-->
+        <nav class="flex items-center justify-between
+           px-6 lg:px-[200px] py-6">
+
+            <!-- Logo -->
+            <h1 class="text-2xl font-bold text-white">Tech<span class="text-pink-500">Wave</span></h1>
+
+            <!-- Navigation Menu -->
+            <ul class="hidden lg:flex gap-10 text-gray-300">
+                <li><a href="#" class="hover:text-white transition">About</a></li>
+                <li><a href="#" class="hover:text-white transition">Episodes</a></li>
+                <li><a href="#" class="hover:text-white transition">Host</a></li>
+            </ul>
+
+            <!-- Subscribe Button -->
+            <button class="lg:flex items-center gap-2 px-6 py-2 rounded-full bg-gradient-to-r from-pink-500 to-purple-500
+             text-white font-medium   hover:opacity-90 transition cursor-pointer">Subscribe →</button>
+
+            <!-- Hamburger Icon (Mobile) -->
+            <div class="hamburger lg:hidden w-8 h-8 cursor-pointer">
+                <img src="images/hamburger-menu.png" alt="Menu" class="w-full h-full">
+            </div>
+
+        </nav>
+        <section>
+            <!-- Banner -->
+            <h1 class="text-2xl font-bold text-white text-center">TechWave</h1>
+            <p class="text-white text-center">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+        </section>
+    </header>
+    <main>
+        <!-- About the Podcast -->
+        <section class="bg-[#1A0B2E]">
+            <h1 class="text-2xl font-bold text-white text-center">About the Podcast</h1>
+            <div class="text-white text-center">
+                <p>TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.</p>
+                <p>We break down complex topics into digestible insights, explore productivity strategies that actually
+                    work,</p>
+                <p>and share stories of personal growth from industry leaders.
+                </p>
+            </div>
+            <div class="text-white text-center"><p>
+                Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
+            </p></div>
+        </section>
+        <!-- Why Choose TechWave -->
+        <section class="bg-[#230E3D]">
+            <h1 class="text-2xl font-bold text-white text-center">Why Choose TechWave</h1>
+        </section>
+        <section class="bg-[#1A0B2E]">
+            <!-- Featured Episodes-->
+            <section class="text-2xl font-bold text-white text-center">
+                <h1>Featured Episodes</h1>
+            </section>
+            <!-- Meet the Host -->
+            <section class="text-2xl font-bold text-white text-center">
+                <h1>Meet the Host</h1>
+            </section>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer class="bg-[#412567]">
+        <h1 class="text-2xl font-bold text-white text-center ">Tech<span class="text-pink-500">Wave</span></h1>
+        <p class="text-white text-center">© 2026 TechWave Podcast. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>
